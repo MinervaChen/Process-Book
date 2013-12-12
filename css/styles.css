@@ -21,7 +21,15 @@ p {
     margin: 5px;
     font-style: bold;
 }
+.picl{
+    float: left;
+    margin: 10px;
+}
 
+.picr{
+    float: right;
+    margin: 10px;
+}
 .head {
     margin: 5px;
     padding: 5px;
@@ -69,18 +77,15 @@ p {
 
 .well{
     background-color: #424242;
-    width: 80%;
+    width: 95%;
     margin: 10px auto;
 }
 .logo:hover{
     opacity: 1;
 }
 
-.content-box{
+.overflow{
     overflow: hidden;
-    margin: auto;
-    width: 80%;
-    padding: 20px;
 }
 
 .row{
@@ -92,7 +97,11 @@ p {
 
 .content-box{
     background-color: black;
+    margin: auto;
+    padding: 20px;
     color: white;
+    width: 80%;
+    overflow: hidden;
 }
 
 .box-heading {
@@ -145,6 +154,13 @@ h5 {
     font-size: 120%;
 }
 
+.intro {
+    width: 80%;
+    font-style: bold;
+    margin: 0 auto;
+    font-size: 90%;
+    padding: 10px;
+}
 li {
     float: center;
 }
